@@ -1,0 +1,317 @@
+﻿ID,Work Item Type,Title,Test Step,Step Action,Step Expected,Revision,Area Path,Assigned To,State
+"4691","Test Case","Test for opening sessions",,,,"7","ZignSec","Saivi Islam <saivi.islam@zignsec.com>","Design"
+"4701","Shared Steps",,"1","opening session",,,,,
+,,,"1.1","click on the scanning button
+","Session page should open
+",,,,
+,,,"1.2","check for test ID
+","able to see the respective test sessions
+",,,,
+,,,"1.3","click on new session button
+","new session should open
+",,,,
+,,,"1.4","click menu button on the right side of the session
+","the menu should open
+",,,,
+"4703","Test Case","Test for uploading documents",,,,"4","ZignSec","Swetha Sayapuraju <swetha.sayapuraju@zignsec.com>","Design"
+"4704","Shared Steps",,"1","uploading documents",,,,,
+,,,"1.1","click plus button to add documents","able to open document categories successfully",,,,
+,,,"1.2","click to select an ID type","pop up window is appeared to drag ids from local computer",,,,
+,,,"1.3","click on drag and drops files","able to open documents from local computer",,,,
+,,,"1.4","click to select a document from local computer","open button is highlighted",,,,
+,,,"1.5","click on open button","document is added in pop up window",,,,
+,,,"1.6","click on add documents","document is added successfully",,,,
+"4705","Test Case","Test for analyzing documents",,,,"4","ZignSec","Swetha Sayapuraju <swetha.sayapuraju@zignsec.com>","Design"
+"4706","Shared Steps",,"1","analysing documents",,,,,
+,,,"1.1","click on play button ","pop up window is shown to choose type of analysis",,,,
+,,,"1.2","click to select type of analysis","pop up window is shown to chose what should be analysed",,,,
+,,,"1.3","click on start analysis ","analysing is started",,,,
+,,,"1.4","click on view all details","should be able to see a page with analysis details",,,,
+,,,"1.5","click on document scan results","should see document page result ",,,,
+"4707","Test Case","Test for Regula site",,,,"6","ZignSec","Swetha Sayapuraju <swetha.sayapuraju@zignsec.com>","Design"
+"4708","Shared Steps",,"1","regula site",,,,,
+,,,"1.1","open @browser","browser should open",,,,
+,,,"1.2","go to @URL","regula page is opened successfully",,,,
+,,,"1.3","click on upload","pop up window is opened to choose documents from local computer",,,,
+,,,"1.4","click to select a document from local system","open button is highlighted",,,,
+,,,"1.5","click open","document is added successfully",,,,
+,,,"1.6","automatically start analysing ","regula scan result appear",,,,
+"4709","Test Case","Test for Oz scan results",,,,"9","ZignSec","Swetha Sayapuraju <swetha.sayapuraju@zignsec.com>","Design"
+"4712","Shared Steps",,"1","test for Oz scan results",,,,,
+,,,"1.1","Open @browser","browser opened successfully",,,,
+,,,"1.2","enter @Url","Oz page is opened",,,,
+,,,"1.3","enter @username","valid username",,,,
+,,,"1.4","enter @password","valid password",,,,
+,,,"1.5","click on login button","homepage is opened successfully",,,,
+,,,"1.6","click on create order button","New order page is opened ",,,,
+,,,"1.7","click on drag and drop files","pop up window will open in our local computer",,,,
+,,,"1.8","click to select on the file document","document is selected and open button is highlighted",,,,
+,,,"1.9","click on open button","document is opened successfully",,,,
+,,,"1.1","click on submit analysis button","analysis page is opened",,,,
+,,,"1.11","click on document in dropdown button in  select image type menu tab","document button is selected and another select image type tab is shown",,,,
+,,,"1.12","click on document with photo button in  dropdown button in select image type tab","document with photo button is selected",,,,
+,,,"1.13","click on submit analysis","oz scan result analysis page is opened",,,,
+,,,"1.1400000000000001","click on document check button","document check page is opened",,,,
+"4711","Test Case","Test for comparing ID,Zignsec,Regula and Oz",,,,"11","ZignSec","Samrawit Haylemeskel <samrawit.haylemeskel@zignsec.com>","Design"
+,,,"1","select and click on folder in the local computer","folder is opened ",,,,
+,,,"2","click on id you want to compare","id is opened successfully",,,,
+"4759","Shared Steps",,"3","login into zignsec",,,,,
+,,,"3.1","Go to @browser","browser is open",,,,
+,,,"3.2","open @portalpage","zignsec portal is open ",,,,
+,,,"3.3","Enter @validusername
+","successful
+",,,,
+,,,"3.4","Enter @validPassword
+","successful
+",,,,
+,,,"3.5","Enter submit","login successful",,,,
+"4701","Shared Steps",,"4","opening session",,,,,
+,,,"4.1","click on the scanning button
+","Session page should open
+",,,,
+,,,"4.2","check for test ID
+","able to see the respective test sessions
+",,,,
+,,,"4.3","click on new session button
+","new session should open
+",,,,
+,,,"4.4","click menu button on the right side of the session
+","the menu should open
+",,,,
+"4704","Shared Steps",,"5","uploading documents",,,,,
+,,,"5.1","click plus button to add documents","able to open document categories successfully",,,,
+,,,"5.2","click to select an ID type","pop up window is appeared to drag ids from local computer",,,,
+,,,"5.3","click on drag and drops files","able to open documents from local computer",,,,
+,,,"5.4","click to select a document from local computer","open button is highlighted",,,,
+,,,"5.5","click on open button","document is added in pop up window",,,,
+,,,"5.6","click on add documents","document is added successfully",,,,
+"4706","Shared Steps",,"6","analysing documents",,,,,
+,,,"6.1","click on play button ","pop up window is shown to choose type of analysis",,,,
+,,,"6.2","click to select type of analysis","pop up window is shown to chose what should be analysed",,,,
+,,,"6.3","click on start analysis ","analysing is started",,,,
+,,,"6.4","click on view all details","should be able to see a page with analysis details",,,,
+,,,"6.5","click on document scan results","should see document page result ",,,,
+"4708","Shared Steps",,"7","regula site",,,,,
+,,,"7.1","open @browser","browser should open",,,,
+,,,"7.2","go to @URL","regula page is opened successfully",,,,
+,,,"7.3","click on upload","pop up window is opened to choose documents from local computer",,,,
+,,,"7.4","click to select a document from local system","open button is highlighted",,,,
+,,,"7.5","click open","document is added successfully",,,,
+,,,"7.6","automatically start analysing ","regula scan result appear",,,,
+"4712","Shared Steps",,"8","test for Oz scan results",,,,,
+,,,"8.1","Open @browser","browser opened successfully",,,,
+,,,"8.2","enter @Url","Oz page is opened",,,,
+,,,"8.3","enter @username","valid username",,,,
+,,,"8.4","enter @password","valid password",,,,
+,,,"8.5","click on login button","homepage is opened successfully",,,,
+,,,"8.6","click on create order button","New order page is opened ",,,,
+,,,"8.7","click on drag and drop files","pop up window will open in our local computer",,,,
+,,,"8.8","click to select on the file document","document is selected and open button is highlighted",,,,
+,,,"8.9","click on open button","document is opened successfully",,,,
+,,,"8.1","click on submit analysis button","analysis page is opened",,,,
+,,,"8.11","click on document in dropdown button in  select image type menu tab","document button is selected and another select image type tab is shown",,,,
+,,,"8.12","click on document with photo button in  dropdown button in select image type tab","document with photo button is selected",,,,
+,,,"8.13","click on submit analysis","oz scan result analysis page is opened",,,,
+,,,"8.14","click on document check button","document check page is opened",,,,
+,,,"9","click on id, Zignsec, Regula and OZ scan result pages to compare","result is compared successfully",,,,
+"4713","Test Case","Test for adding data to excel",,,,"17","ZignSec","Samrawit Haylemeskel <samrawit.haylemeskel@zignsec.com>","Design"
+"4748","Shared Steps",,"1","Microsoft teams login",,,,,
+,,,"1.1","open the Microsoft Teams","microsoft teams login page is opened",,,,
+,,,"1.2","enter @username","valid username",,,,
+,,,"1.3","clcik on sign in button","Microsoft teams is opened",,,,
+,,,"1.4","click on teams icon","teams icon page is opened",,,,
+,,,"1.5","click on files","files are opened",,,,
+"4715","Shared Steps",,"2","Excel sheet",,,,,
+,,,"2.1","right click on Online ID Scan Documents.xlsx","options are shown",,,,
+,,,"2.2","click on Open in @sharePointbutton","SharePoint window is opened  in browser",,,,
+,,,"2.3","click on @url linked file (OnlineIDScanDocuments.xlsx)","excel file is opened successful",,,,
+,,,"2.4","click on scan documents sheet","all the data excel sheet is shown",,,,
+"4759","Shared Steps",,"3","login into zignsec",,,,,
+,,,"3.1","Go to @browser","browser is open",,,,
+,,,"3.2","open @portalpage","zignsec portal is open ",,,,
+,,,"3.3","Enter @validusername
+","successful
+",,,,
+,,,"3.4","Enter @validPassword
+","successful
+",,,,
+,,,"3.5","Enter submit","login successful",,,,
+"4701","Shared Steps",,"4","opening session",,,,,
+,,,"4.1","click on the scanning button
+","Session page should open
+",,,,
+,,,"4.2","check for test ID
+","able to see the respective test sessions
+",,,,
+,,,"4.3","click on new session button
+","new session should open
+",,,,
+,,,"4.4","click menu button on the right side of the session
+","the menu should open
+",,,,
+"4704","Shared Steps",,"5","uploading documents",,,,,
+,,,"5.1","click plus button to add documents","able to open document categories successfully",,,,
+,,,"5.2","click to select an ID type","pop up window is appeared to drag ids from local computer",,,,
+,,,"5.3","click on drag and drops files","able to open documents from local computer",,,,
+,,,"5.4","click to select a document from local computer","open button is highlighted",,,,
+,,,"5.5","click on open button","document is added in pop up window",,,,
+,,,"5.6","click on add documents","document is added successfully",,,,
+"4706","Shared Steps",,"6","analysing documents",,,,,
+,,,"6.1","click on play button ","pop up window is shown to choose type of analysis",,,,
+,,,"6.2","click to select type of analysis","pop up window is shown to chose what should be analysed",,,,
+,,,"6.3","click on start analysis ","analysing is started",,,,
+,,,"6.4","click on view all details","should be able to see a page with analysis details",,,,
+,,,"6.5","click on document scan results","should see document page result ",,,,
+,,,"7","click on raw response ","raw response is opened",,,,
+,,,"8","select and copy the data you want to add in excel","data is copied",,,,
+,,,"9","select any field in excel sheet to paste","field is selected",,,,
+,,,"10","right click to select paste ","data is pasted successfully",,,,
+"4714","Test Case","Test for opening project folder",,,,"6","ZignSec","Samrawit Haylemeskel <samrawit.haylemeskel@zignsec.com>","Design"
+"4748","Shared Steps",,"1","Microsoft teams login",,,,,
+,,,"1.1","open the Microsoft Teams","microsoft teams login page is opened",,,,
+,,,"1.2","enter @username","valid username",,,,
+,,,"1.3","clcik on sign in button","Microsoft teams is opened",,,,
+,,,"1.4","click on teams icon","teams icon page is opened",,,,
+,,,"1.5","click on files","files are opened",,,,
+"4717","Shared Steps",,"2","Opening project folder",,,,,
+,,,"2.1","click on ZS Project 4658(4) in teams","ZS Project 4658(4) is opened successfully
+",,,,
+,,,"2.2","click on scan document result folder","folder is opened",,,,
+"4716","Test Case","Test for creating hyperlink for ZignSec result",,,,"10","ZignSec","Samrawit Haylemeskel <samrawit.haylemeskel@zignsec.com>","Design"
+"4748","Shared Steps",,"1","Microsoft teams login",,,,,
+,,,"1.1","open the Microsoft Teams","microsoft teams login page is opened",,,,
+,,,"1.2","enter @username","valid username",,,,
+,,,"1.3","clcik on sign in button","Microsoft teams is opened",,,,
+,,,"1.4","click on teams icon","teams icon page is opened",,,,
+,,,"1.5","click on files","files are opened",,,,
+"4715","Shared Steps",,"2","Excel sheet",,,,,
+,,,"2.1","right click on Online ID Scan Documents.xlsx","options are shown",,,,
+,,,"2.2","click on Open in @sharePointbutton","SharePoint window is opened  in browser",,,,
+,,,"2.3","click on @url linked file (OnlineIDScanDocuments.xlsx)","excel file is opened successful",,,,
+,,,"2.4","click on scan documents sheet","all the data excel sheet is shown",,,,
+"4717","Shared Steps",,"3","Opening project folder",,,,,
+,,,"3.1","click on ZS Project 4658(4) in teams","ZS Project 4658(4) is opened successfully
+",,,,
+,,,"3.2","click on scan document result folder","folder is opened",,,,
+,,,"4","click on Zignsec scan results folder ","Zignsec scan result is opened ",,,,
+,,,"5","click on own folder name ","folder is opened ",,,,
+,,,"6","click on upload","dropdown list is appeared ",,,,
+,,,"7","click on files ","pop up window opens to choose file from local computer 
+",,,,
+,,,"8","click on document ","document is selected",,,,
+,,,"9","click on open button ","document is uploaded ",,,,
+,,,"10","right click on the uploaded document to copy the link ","options are shown",,,,
+,,,"11","click on copy link button 
+","link is copied ",,,,
+,,,"12","right click on zignsec scan result field
+","options are shown
+",,,,
+,,,"13","click on hyperlink 
+","pop up window is opened ",,,,
+,,,"14","click on Url tab ","tab is highlighted ",,,,
+,,,"15","right click to select paste ","link is pasted 
+",,,,
+,,,"16","click on ok button ","hyperlink is created in excel sheet ",,,,
+"4723","Test Case","Test for creating Hyperlink for session id",,,,"7","ZignSec","Samrawit Haylemeskel <samrawit.haylemeskel@zignsec.com>","Design"
+"4748","Shared Steps",,"1","Microsoft teams login",,,,,
+,,,"1.1","open the Microsoft Teams","microsoft teams login page is opened",,,,
+,,,"1.2","enter @username","valid username",,,,
+,,,"1.3","clcik on sign in button","Microsoft teams is opened",,,,
+,,,"1.4","click on teams icon","teams icon page is opened",,,,
+,,,"1.5","click on files","files are opened",,,,
+"4715","Shared Steps",,"2","Excel sheet",,,,,
+,,,"2.1","right click on Online ID Scan Documents.xlsx","options are shown",,,,
+,,,"2.2","click on Open in @sharePointbutton","SharePoint window is opened  in browser",,,,
+,,,"2.3","click on @url linked file (OnlineIDScanDocuments.xlsx)","excel file is opened successful",,,,
+,,,"2.4","click on scan documents sheet","all the data excel sheet is shown",,,,
+"4717","Shared Steps",,"3","Opening project folder",,,,,
+,,,"3.1","click on ZS Project 4658(4) in teams","ZS Project 4658(4) is opened successfully
+",,,,
+,,,"3.2","click on scan document result folder","folder is opened",,,,
+,,,"4","click on Passport and ID Images folder","Passport and ID folder is opened",,,,
+,,,"5","click on own folder name","folder is opened",,,,
+,,,"6","click on upload","dropdown menu is appeared",,,,
+,,,"7","click on files","pop up window opens to choose file from local computer",,,,
+,,,"8","click on id image","id image is selected",,,,
+,,,"9","click on open button","id image is uploaded",,,,
+,,,"10","right click on the uploaded id to copy the link","options are shown",,,,
+,,,"11","click on copy link button","link is copied",,,,
+,,,"12","right click on session id field","options are shown",,,,
+,,,"13","click on hyperlink","pop up window is opened",,,,
+,,,"14","click on url tab ","tab is highlighted",,,,
+,,,"15","right click to select paste in Session id ","linked is pasted",,,,
+,,,"16","click on ok button","hyperlink is created in session id field",,,,
+"4727","Test Case","Test for creating hyperlink for Regula scan result",,,,"6","ZignSec","Samrawit Haylemeskel <samrawit.haylemeskel@zignsec.com>","Design"
+"4748","Shared Steps",,"1","Microsoft teams login",,,,,
+,,,"1.1","open the Microsoft Teams","microsoft teams login page is opened",,,,
+,,,"1.2","enter @username","valid username",,,,
+,,,"1.3","clcik on sign in button","Microsoft teams is opened",,,,
+,,,"1.4","click on teams icon","teams icon page is opened",,,,
+,,,"1.5","click on files","files are opened",,,,
+"4715","Shared Steps",,"2","Excel sheet",,,,,
+,,,"2.1","right click on Online ID Scan Documents.xlsx","options are shown",,,,
+,,,"2.2","click on Open in @sharePointbutton","SharePoint window is opened  in browser",,,,
+,,,"2.3","click on @url linked file (OnlineIDScanDocuments.xlsx)","excel file is opened successful",,,,
+,,,"2.4","click on scan documents sheet","all the data excel sheet is shown",,,,
+"4717","Shared Steps",,"3","Opening project folder",,,,,
+,,,"3.1","click on ZS Project 4658(4) in teams","ZS Project 4658(4) is opened successfully
+",,,,
+,,,"3.2","click on scan document result folder","folder is opened",,,,
+,,,"4","click on Regula scan results folder"," Regula scan results is opened
+",,,,
+,,,"5","click on own folder name","own folder is opened",,,,
+,,,"6","click on upload","dropdown menu is opened",,,,
+,,,"7","click on files","pop up window opens to choose file from local computer",,,,
+,,,"8","click on regula scan result document","regula scan result document is selected",,,,
+,,,"9","click on open button","document is uploaded",,,,
+,,,"10","right click on uploaded document to copy the link","options are shown",,,,
+,,,"11","click on copy link button","link is copied",,,,
+,,,"12","right click on Scan Result From Regula  field ","options are shown",,,,
+,,,"13","click on hyperlink ","pop up window is opened ",,,,
+,,,"14","click on Url tab ","tab is highlighted ",,,,
+,,,"15","right click to select paste regula scan result field ","link is pasted ",,,,
+,,,"16","click on ok button ","hyperlink is created in  Scan Result From Regula  field ",,,,
+"4731","Test Case","Test for creating hyperlink for OZ scan results",,,,"5","ZignSec","Samrawit Haylemeskel <samrawit.haylemeskel@zignsec.com>","Design"
+"4748","Shared Steps",,"1","Microsoft teams login",,,,,
+,,,"1.1","open the Microsoft Teams","microsoft teams login page is opened",,,,
+,,,"1.2","enter @username","valid username",,,,
+,,,"1.3","clcik on sign in button","Microsoft teams is opened",,,,
+,,,"1.4","click on teams icon","teams icon page is opened",,,,
+,,,"1.5","click on files","files are opened",,,,
+"4715","Shared Steps",,"2","Excel sheet",,,,,
+,,,"2.1","right click on Online ID Scan Documents.xlsx","options are shown",,,,
+,,,"2.2","click on Open in @sharePointbutton","SharePoint window is opened  in browser",,,,
+,,,"2.3","click on @url linked file (OnlineIDScanDocuments.xlsx)","excel file is opened successful",,,,
+,,,"2.4","click on scan documents sheet","all the data excel sheet is shown",,,,
+"4717","Shared Steps",,"3","Opening project folder",,,,,
+,,,"3.1","click on ZS Project 4658(4) in teams","ZS Project 4658(4) is opened successfully
+",,,,
+,,,"3.2","click on scan document result folder","folder is opened",,,,
+,,,"4","click on OZ scan results folder ","Oz scan results folder is opened ",,,,
+,,,"5","click on own folder name ","own folder is opened ",,,,
+,,,"6","click on upload ","dropdown menu is appeared ",,,,
+,,,"7","click on files ","pop up window opens to choose file from local computer ",,,,
+,,,"8","click on OZ scan result document","OZ scan result document is selected ",,,,
+,,,"9","click on open button","OZ scan result document is uploaded 
+",,,,
+,,,"10","right click on the uploaded document to copy the link ","options are shown ",,,,
+,,,"11","click on copy link button ","link is copied ",,,,
+,,,"12","right click on OZ scan result field in excel sheet ","options are shown ",,,,
+,,,"13","click on hyperlink ","pop up window is opened ",,,,
+,,,"14","click on Url tab","tab is highlighted ",,,,
+,,,"15","right click to select paste ","link is pasted ",,,,
+,,,"16","click on ok button ","hyperlink is created in excel sheet",,,,
+"4758","Test Case","Test for login functionality",,,,"6","ZignSec","Saivi Islam <saivi.islam@zignsec.com>","Design"
+"4759","Shared Steps",,"1","login into zignsec",,,,,
+,,,"1.1","Go to @browser","browser is open",,,,
+,,,"1.2","open @portalpage","zignsec portal is open ",,,,
+,,,"1.3","Enter @validusername
+","successful
+",,,,
+,,,"1.4","Enter @validPassword
+","successful
+",,,,
+,,,"1.5","Enter submit","login successful",,,,
+,,,"2","
+","
+",,,,
